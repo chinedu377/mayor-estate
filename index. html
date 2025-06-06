@@ -1,0 +1,53 @@
+index. html<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mayor Estate</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Mayor Estate</h1>
+    <nav>
+      <a href="#listings">Lands for Sale</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <h2>Invest in a unique, laudable and lucrative properties</h2>
+  </section>
+
+  <section id="listings">
+    <h2>Featured Lands</h2>
+    <div class="land-listing">
+      <img src="https://via.placeholder.com/300x200" alt="Land 1" />
+      <h3>Sunny Acres</h3>
+      <p>5 acres of fertile land with river access.</p>
+      <p class="price">$50,000</p>
+    </div>
+    <div class="land-listing">
+      <img src="https://via.placeholder.com/300x200" alt="Land 2" />
+      <h3>Mountain View Plot</h3>
+      <p>Scenic 3-acre plot overlooking the mountains.</p>
+      <p class="price">$70,000</p>
+    </div>
+    <div class="land-listing">
+      <img src="https://via.placeholder.com/300x200" alt="Land 3" />
+      <h3>Lakefront Paradise</h3>
+      <p>4-acre waterfront land with private dock access.</p>
+      <p class="price">$85,000</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Call us at <strong>08033250605</strong></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mayor Estate</p>
+  </footer>
+</body>
+</html>
