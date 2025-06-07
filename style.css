@@ -1,158 +1,60 @@
 style. css/* General Styles */
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
-  background-color: #f4f4f4;
-  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
 }
 
 a {
-  text-decoration: none;
-  color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
-/* Header */
-header {
-  background-color: #2e3b4e;
-  color: white;
-  padding: 20px;
-  text-align: center;
+/* Layout and Structure */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-header h1 {
-  margin-bottom: 10px;
-  font-size: 2rem;
+/* Navigation */
+nav {
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 nav a {
-  color: white;
-  margin: 0 15px;
-  font-weight: 500;
+  margin: 0 15px;
+  color: #007bff;
+  font-weight: bold;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  text-decoration: underline;
 }
 
-/* Intro Section */
-.intro {
-  background-color: #e8f0fe;
-  padding: 40px 20px;
-  text-align: center;
+/* Featured Land Section */
+.featured-land {
+  padding: 15px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
 }
 
-.intro h2 {
-  font-size: 1.8rem;
-  color: #1a3d6d;
-}
-
-/* Listings Section */
-#listings {
-  padding: 40px 20px;
-}
-
-#listings h2 {
-  text-align: center;
-  margin-bottom: 30px;
-  color: #1a3d6d;
-}
-
-.land-listing {
-  background-color: white;
-  padding: 20px;
-  margin-bottom: 30px;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.land-listing img {
-  width: 100%;
-  height: auto;
-  border-radius: 6px;
-  margin-bottom: 15px;
-}
-
-.land-listing h3 {
-  margin-bottom: 10px;
-  color: #2e3b4e;
-}
-
-.price {
-  color: #2e8b57;
-  font-weight: bold;
-  font-size: 1.2rem;
-}
-
-/* Contact Section */
-#contact {
-  background-color: #d9edf7;
-  padding: 40px 20px;
-  text-align: center;
-}
-
-#contact h2 {
-  margin-bottom: 15px;
-  color: #1a3d6d;
-}
-
-#contact strong {
-  font-size: 1.5rem;
-  color: #2e8b57;
-}
-
-/* Footer */
-footer {
-  background-color: #2e3b4e;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  font-size: 0.9rem;
-}
-
-/* Responsive Layout */
-@media (min-width: 768px) {
-  .land-listing {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-  }
-
-  .land-listing img {
-    width: 300px;
-    flex-shrink: 0;
-  }
-
-  .land-listing h3,
-  .land-listing p,
-  .land-listing .price {
-    text-align: left;
-  }
-}
-
-@media (max-width: 480px) {
-  nav a {
-    display: block;
-    margin: 10px 0;
-  }
-
-  .intro h2 {
-    font-size: 1.4rem;
-  }
-
-  .price {
-    font-size: 1rem;
-  }
-
-  #contact strong {
-    font-size: 1.2rem;
-  }
+.featured-land img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 6px;
+  margin-bottom: 10px;
 }
