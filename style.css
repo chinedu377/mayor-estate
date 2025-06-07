@@ -17,19 +17,28 @@ a {
   color: inherit;
 }
 
-/* Layout and Structure */
+/* Container */
 .container {
   max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
   background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Navigation */
-nav {
+/* Header */
+header {
+  background-color: #2b4f9c;
+  color: white;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
   margin-bottom: 20px;
+}
+
+nav {
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -41,6 +50,12 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
+}
+
+/* Intro */
+.intro {
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 /* Featured Land Section */
@@ -58,8 +73,14 @@ nav a:hover {
   border-radius: 6px;
   margin-bottom: 10px;
 }
-.container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 20px;
+
+.price {
+  font-weight: bold;
+  color: green;
+}
+
+/* Contact */
+#contact {
+  margin-top: 40px;
+  text-align: center;
 }
